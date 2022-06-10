@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root {
+    --main-bg-color: #2bbaaf;
+  }
+*{
+    margin: 0;
+    
+    text-decoration: none;
+   
+}
+header{
+    background: var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+    
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+  
+}
+
+.logo img{
+    width: 135px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+   
+}
+nav ul li{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    padding: 0 23px;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #0606f6;
+    font-weight: bolder;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+    padding: 5px ;
+    margin: 5px;
+   
+
+}
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding: 2px;
+}
+.container2{
+    min-height: calc(100vh - 58px - 12vh);
+    padding: 5px ;
+    margin: 5px;
+   
+
+}
+
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 2px;
+}
+
+.content{
+    font-size: 24px;
+    color: yellow;
+    background: rgb(0, 0, 0);
+}
